@@ -1,0 +1,21 @@
+[ {
+  "uid" : "4b3d46ed750d65b6",
+  "name" : "test_login_01_error[test_info0]",
+  "time" : {
+    "start" : 1581688842851,
+    "stop" : 1581688846895,
+    "duration" : 4044
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cdc77d373d4c4571",
+  "name" : "test_login_01_error[test_info1]",
+  "time" : {
+    "start" : 1581688851392,
+    "stop" : 1581688859425,
+    "duration" : 8033
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

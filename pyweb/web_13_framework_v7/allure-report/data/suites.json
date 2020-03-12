@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_case",
+    "children" : [ {
+      "name" : "test_login_pytest",
+      "children" : [ {
+        "name" : "TestLogin",
+        "children" : [ {
+          "name" : "test_login_01_error[test_info0]",
+          "uid" : "4b3d46ed750d65b6",
+          "parentUid" : "fbdd5c3783b3161e8e46cd202da33fce",
+          "status" : "passed",
+          "time" : {
+            "start" : 1581688842851,
+            "stop" : 1581688846895,
+            "duration" : 4044
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'mobile': '12345', 'pwd': '', 'expected': '请输入正确的手机号'}" ]
+        }, {
+          "name" : "test_login_01_error[test_info1]",
+          "uid" : "cdc77d373d4c4571",
+          "parentUid" : "fbdd5c3783b3161e8e46cd202da33fce",
+          "status" : "passed",
+          "time" : {
+            "start" : 1581688851392,
+            "stop" : 1581688859425,
+            "duration" : 8033
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'mobile': '123', 'pwd': '', 'expected': '请输入正确的手机号'}" ]
+        } ],
+        "uid" : "fbdd5c3783b3161e8e46cd202da33fce"
+      } ],
+      "uid" : "ecf9c6a38613bd431c83b0c51000ec1e"
+    } ],
+    "uid" : "86abcc46617c603d802c3e378b13740e"
+  } ]
+}

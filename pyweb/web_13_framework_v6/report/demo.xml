@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="1" hostname="LAPTOP-LENSEH1Q" name="pytest" skipped="0" tests="1" time="0.883" timestamp="2020-02-12T20:34:34.850924"><testcase classname="test_case.test_demo" file="test_case\test_demo.py" line="13" name="test_demo_yuer" time="0.001"><failure message="AssertionError: 小眼睛周同学说 1 是不可能等于 2 的
+assert 1 == 2">@pytest.mark.login
+    @pytest.mark.failed
+    def test_demo_yuer():
+        print(&quot;hello world&quot;)
+        # 使用的断言是 python 内置的断言
+&gt;       assert 1 == 2, &quot;小眼睛周同学说 1 是不可能等于 2 的&quot;
+E       AssertionError: 小眼睛周同学说 1 是不可能等于 2 的
+E       assert 1 == 2
+
+test_case\test_demo.py:19: AssertionError</failure></testcase></testsuite></testsuites>

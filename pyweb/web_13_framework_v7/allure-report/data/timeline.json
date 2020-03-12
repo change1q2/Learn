@@ -1,0 +1,255 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-LENSEH1Q",
+    "children" : [ {
+      "name" : "15720-MainThread",
+      "children" : [ {
+        "name" : "test_login_01_error[test_info1]",
+        "uid" : "6309555bffae8d6b",
+        "parentUid" : "6ccca0cef6a90efac2ffddb4fabb161d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581688835380,
+          "stop" : 1581688840586,
+          "duration" : 5206
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'mobile': '123', 'pwd': '', 'expected': '请输入正确的手机号'}" ]
+      }, {
+        "name" : "test_login_01_error[test_info0]",
+        "uid" : "f231a7c459faf0b3",
+        "parentUid" : "6ccca0cef6a90efac2ffddb4fabb161d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581688817847,
+          "stop" : 1581688832969,
+          "duration" : 15122
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'mobile': '12345', 'pwd': '', 'expected': '请输入正确的手机号'}" ]
+      }, {
+        "name" : "test_login_01_error[test_info0]",
+        "uid" : "4b3d46ed750d65b6",
+        "parentUid" : "6ccca0cef6a90efac2ffddb4fabb161d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581688842851,
+          "stop" : 1581688846895,
+          "duration" : 4044
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'mobile': '12345', 'pwd': '', 'expected': '请输入正确的手机号'}" ]
+      }, {
+        "name" : "test_login_01_error[test_info1]",
+        "uid" : "cdc77d373d4c4571",
+        "parentUid" : "6ccca0cef6a90efac2ffddb4fabb161d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581688851392,
+          "stop" : 1581688859425,
+          "duration" : 8033
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'mobile': '123', 'pwd': '', 'expected': '请输入正确的手机号'}" ]
+      }, {
+        "name" : "test_login_01_error[test_info0]",
+        "uid" : "676d41b785a29fe9",
+        "parentUid" : "6ccca0cef6a90efac2ffddb4fabb161d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581688817847,
+          "stop" : 1581688832969,
+          "duration" : 15122
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'mobile': '12345', 'pwd': '', 'expected': '请输入正确的手机号'}" ]
+      }, {
+        "name" : "test_login_01_error[test_info1]",
+        "uid" : "e1ba9c0039791f98",
+        "parentUid" : "6ccca0cef6a90efac2ffddb4fabb161d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581688835380,
+          "stop" : 1581688840586,
+          "duration" : 5206
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'mobile': '123', 'pwd': '', 'expected': '请输入正确的手机号'}" ]
+      } ],
+      "uid" : "6ccca0cef6a90efac2ffddb4fabb161d"
+    }, {
+      "name" : "3184-MainThread",
+      "children" : [ {
+        "name" : "test_login_01_error[test_info0]",
+        "uid" : "1bec3206af6b30c8",
+        "parentUid" : "ddbd8c2e4d865e613941f4fc849facbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581687750366,
+          "stop" : 1581687753668,
+          "duration" : 3302
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'mobile': '12345', 'pwd': '', 'expected': '请输入正确的手机号'}" ]
+      }, {
+        "name" : "test_login_01_error[test_info1]",
+        "uid" : "2c973f7b99822d14",
+        "parentUid" : "ddbd8c2e4d865e613941f4fc849facbb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581687743758,
+          "stop" : 1581687747157,
+          "duration" : 3399
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'mobile': '123', 'pwd': '', 'expected': '请输入正确的手机号'}" ]
+      }, {
+        "name" : "test_login_01_error[test_info1]",
+        "uid" : "82a714beb621bfa6",
+        "parentUid" : "ddbd8c2e4d865e613941f4fc849facbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581687758500,
+          "stop" : 1581687760984,
+          "duration" : 2484
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'mobile': '123', 'pwd': '', 'expected': '请输入正确的手机号'}" ]
+      }, {
+        "name" : "test_login_01_error[test_info0]",
+        "uid" : "1a52d0bb03cecfe1",
+        "parentUid" : "ddbd8c2e4d865e613941f4fc849facbb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581687738572,
+          "stop" : 1581687740876,
+          "duration" : 2304
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'mobile': '12345', 'pwd': '', 'expected': '请输入正确的手机号'}" ]
+      }, {
+        "name" : "test_login_01_error[test_info1]",
+        "uid" : "7532489ea278981f",
+        "parentUid" : "ddbd8c2e4d865e613941f4fc849facbb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581687743758,
+          "stop" : 1581687747157,
+          "duration" : 3399
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'mobile': '123', 'pwd': '', 'expected': '请输入正确的手机号'}" ]
+      }, {
+        "name" : "test_login_01_error[test_info0]",
+        "uid" : "4b343e4214c7688f",
+        "parentUid" : "ddbd8c2e4d865e613941f4fc849facbb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581687738572,
+          "stop" : 1581687740876,
+          "duration" : 2304
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'mobile': '12345', 'pwd': '', 'expected': '请输入正确的手机号'}" ]
+      } ],
+      "uid" : "ddbd8c2e4d865e613941f4fc849facbb"
+    }, {
+      "name" : "18304-MainThread",
+      "children" : [ {
+        "name" : "test_login_01_error[test_info1]",
+        "uid" : "e746e9f09c18630a",
+        "parentUid" : "7b5e9ec7a9dee2243f9431b8093f0a7e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1581688122902,
+          "stop" : 1581688132149,
+          "duration" : 9247
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'mobile': '123', 'pwd': '', 'expected': '请输入正确的手机号'}" ]
+      }, {
+        "name" : "test_login_01_error[test_info1]",
+        "uid" : "6aed38b801bd8b50",
+        "parentUid" : "7b5e9ec7a9dee2243f9431b8093f0a7e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581688068157,
+          "stop" : 1581688085790,
+          "duration" : 17633
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'mobile': '123', 'pwd': '', 'expected': '请输入正确的手机号'}" ]
+      }, {
+        "name" : "test_login_01_error[test_info0]",
+        "uid" : "e437ed9d77e76660",
+        "parentUid" : "7b5e9ec7a9dee2243f9431b8093f0a7e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581688085928,
+          "stop" : 1581688085928,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'mobile': '12345', 'pwd': '', 'expected': '请输入正确的手机号'}" ]
+      }, {
+        "name" : "test_login_01_error[test_info0]",
+        "uid" : "866f2c069146883b",
+        "parentUid" : "7b5e9ec7a9dee2243f9431b8093f0a7e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581688053775,
+          "stop" : 1581688065300,
+          "duration" : 11525
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'mobile': '12345', 'pwd': '', 'expected': '请输入正确的手机号'}" ]
+      }, {
+        "name" : "test_login_01_error[test_info0]",
+        "uid" : "9eeea3444d53e85",
+        "parentUid" : "7b5e9ec7a9dee2243f9431b8093f0a7e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581688053775,
+          "stop" : 1581688065300,
+          "duration" : 11525
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'mobile': '12345', 'pwd': '', 'expected': '请输入正确的手机号'}" ]
+      }, {
+        "name" : "test_login_01_error[test_info1]",
+        "uid" : "7fff8e479e7f6bab",
+        "parentUid" : "7b5e9ec7a9dee2243f9431b8093f0a7e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581688068157,
+          "stop" : 1581688085790,
+          "duration" : 17633
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'mobile': '123', 'pwd': '', 'expected': '请输入正确的手机号'}" ]
+      } ],
+      "uid" : "7b5e9ec7a9dee2243f9431b8093f0a7e"
+    } ],
+    "uid" : "778dab2c87d0760758e9fc0a24f2f0cb"
+  } ]
+}

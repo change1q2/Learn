@@ -1,0 +1,11 @@
+F test_case/test_demo.py::test_demo_yuer
+ @pytest.mark.login
+     @pytest.mark.failed
+     def test_demo_yuer():
+         print("hello world")
+         # 使用的断言是 python 内置的断言
+ >       assert 1 == 2, "小眼睛周同学说 1 是不可能等于 2 的"
+ E       AssertionError: 小眼睛周同学说 1 是不可能等于 2 的
+ E       assert 1 == 2
+ 
+ test_case\test_demo.py:19: AssertionError

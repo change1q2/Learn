@@ -1,0 +1,42 @@
+{
+  "0012ce64218dd5599c4c9db563a66243" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cdc77d373d4c4571",
+      "reportUrl" : "http://localhost:8080/job/python24_web/5/allure/#testresult/cdc77d373d4c4571",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581688851392,
+        "stop" : 1581688859425,
+        "duration" : 8033
+      }
+    } ]
+  },
+  "c084e4389fca48677ce152c15f80ff49" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4b3d46ed750d65b6",
+      "reportUrl" : "http://localhost:8080/job/python24_web/5/allure/#testresult/4b3d46ed750d65b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581688842851,
+        "stop" : 1581688846895,
+        "duration" : 4044
+      }
+    } ]
+  }
+}
