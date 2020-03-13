@@ -32,6 +32,6 @@ print(driver.execute_script('return document.URL;'))
 # 打开新窗口
 driver.execute_script('window.open();')
 
-
+#滚动条窗口大小
 driver.execute_script('window.scrollTo(0, document.body.scrollHeight);')
 
