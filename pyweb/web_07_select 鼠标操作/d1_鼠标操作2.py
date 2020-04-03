@@ -44,22 +44,28 @@ action.perform()
 
 time.sleep(2)
 
-
-# select方法一: 直接定位定位微软doc
+#下拉框的处理
+# select方法一: 直接定位到需要的元素
 # doc_elem = driver.find_element_by_xpath("//option[@value='doc']")
 # doc_elem.click()
 # time.sleep(2)
 
-# select方法二: 使用 selenium 封装
+# select方法二: 使用 selenium 封装（高级方法）
 # 第一步：定位 select 元素
 s_elem = driver.find_element_by_name('ft')
 # 第二部：初始化 Select 类
 select = Select(s_elem)
 # 第三部：选择, 三种方式：1， value, 2, text,  3, index
-select.select_by_value('doc')
+select.select_by_value('doc')#属性值
 
-# select.select_by_visible_text('微软 Word (.doc)')
-# select.select_by_index(1)
+# select.select_by_visible_text('微软 Word (.doc)')#文本方式
+# select.select_by_index(1) #索引方式
+
+#select 方法三：分两步定位，限定为到下拉框在定位到下拉框里面的选项
+doc_elem1 = driver.find_element_by_xpath("//option[@value='select']")
+doc_elem.click().perform()
+doc_elem2 = driver.find_element_by_xpath("//option[@value='doc']")
+doc_elem2.click().perform()
 
 time.sleep(2)
 
