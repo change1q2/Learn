@@ -4,7 +4,7 @@
 
 
 
-select 选择的用法
+select（下拉框） 选择的用法
 1， 直接定位 option 元素，点击
 2， Select
 
