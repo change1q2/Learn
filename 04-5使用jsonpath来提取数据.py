@@ -35,6 +35,10 @@ member_id = jsonpath.jsonpath(json_data, "$..id")[0]
 type_token = jsonpath.jsonpath(json_data, "$..token_type")[0]
 token = jsonpath.jsonpath(json_data, "$..token")[0]
 
+#[]:迭代器标示（可以在里边做简单的迭代操作，如数组下标，根据内容选值等）
+#下面节点的第二个的name
+#jp = jsonpath.jsonpath(js,'$..C[1].name')
+
 
 # print(type_token)
 # print(token)
