@@ -42,6 +42,14 @@ response = requests.post(url=register_url, json=data, headers=header)
 # json方法可以将json字符串转换成对应的python类型的数据
 # print(type(response.json()))
 print(response.json())
+
+json字符串转成字典{}
+dict_data=json.loads(json_data)
+　　
+字典{}转成json字符串
+json_data=json.dumps(dict_data, ensure_ascii=False)
+
 # 需要做自动化的（http/https协议）接口返回的数据99%是json类型的
+
 
 
